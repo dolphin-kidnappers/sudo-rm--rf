@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>지뢰찾기</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        #board {
+            display: grid;
+            grid-template-columns: repeat(9, 40px);
+            grid-template-rows: repeat(9, 40px);
+            gap: 2px;
+            margin: 20px auto;
+        }
+        .cell {
+            width: 40px;
+            height: 40px;
+            background: #ccc;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+        }
+        .opened {
+            background: #eee;
+        }
+        .flag {
+            color: red;
+        }
+    </style>
+</head>
+<body class="text-center">
+    <h1 class="mt-4">🧨 지뢰찾기</h1>
+    <div id="board"></div>
+    <script src="/static/game.js"></script>
+</body>
+</html>
