@@ -100,5 +100,7 @@
 
 단순히 "산불이 날 것 같다"가 아니라 "산불로 인해 사과 가격이 30% 오를 것 같으니 지금 사두세요" 또는 "귀하의 농장 근처 산불 위험으로 조기 출하를 고려해보세요"라는 실용적인 정보를 제공하는 시스템입니다.
 
+[Demo Page](https://kzmphwwt5n6qcxm7vxh2.lite.vusercontent.net/)
+
 
 [workLog](https://github.com/dolphin-kidnappers/sudo-rm--rf/tree/main/workLog)
