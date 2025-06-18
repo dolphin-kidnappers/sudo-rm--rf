@@ -104,4 +104,12 @@
 ![image](https://github.com/user-attachments/assets/3afb425a-a62e-4314-80c5-51143e84246b)
 
 
+```sh
+git clone https://github.com/dolphin-kidnappers/sudo-rm--rf.git
+cd sudo-rm--rf/agriprice-guard
+pnpm i
+pnpm dev
+```
+
+
 [workLog](https://github.com/dolphin-kidnappers/sudo-rm--rf/tree/main/workLog)
